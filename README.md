@@ -2,23 +2,11 @@
 
 This is my Project 2 Giga Pet copied for the Chrome DevTools homework.
 
-I added buttons that make different console messages and errors so I can screenshot them in Chrome DevTools.
-
 ## GitHub Pages
 
-Live link:
+Live link: https://alwinray37.github.io/comp484-hw10/
 
-https://alwinray37.github.io/comp484-hw10/
-
-## What I Added
-
-- Console examples: log, info, warning, error, table, group, and custom styled log.
-- Browser examples: 404 error, TypeError, and violation message.
-- Filter examples using tags like `PET-INFO:`, `PET-WARN:`, and `PET-ERROR:`.
-- A small addition bug for the Sources tab.
-- A fixed version of the addition bug using `Number()`.
-
-## HW Instructions
+## HW 10 Instructions
 - Review the Chrome dev tools documentation and demos. (If the demos don't load try opening the demo in an incognito window)
   - https://developer.chrome.com/docs/devtools/console/log/
   - https://developer.chrome.com/docs/devtools/javascript/
