@@ -306,8 +306,8 @@ function logFilterExamples() {
 	console.log("PET-INFO: Feeding completed for Koa (id:KOA-1234)");
 	console.groupEnd();
 
-	// Assertion and trace examples for filtering and source inspection
-	console.assert(pet_info.weight < 100, "PET-ASSERT: weight exceeds expected limit: " + pet_info.weight);
+	// Intentionally false so the assertion message always appears during demos
+	console.assert(false, "PET-ASSERT: Demo assertion message (weight=" + pet_info.weight + ")");
 	console.trace("PET-TRACE: Trace example showing call stack");
 }
 
