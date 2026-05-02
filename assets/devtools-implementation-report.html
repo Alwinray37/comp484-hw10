@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>DevTools Report</title>
+	<style>
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+			margin: 40px;
+			line-height: 1.5;
+			color: #222;
+		}
+
+		h1 {
+			border-bottom: 2px solid #222;
+			padding-bottom: 10px;
+		}
+
+		section {
+			margin: 28px 0;
+			page-break-inside: avoid;
+		}
+
+		code {
+			background: #eee;
+			padding: 2px 4px;
+		}
+
+		.screenshot {
+			border: 1px solid #aaa;
+			padding: 12px;
+			margin-top: 10px;
+			min-height: 120px;
+		}
+
+		.screenshot img {
+			max-width: 100%;
+			border: 1px solid #ccc;
+		}
+	</style>
+</head>
+<body>
+	<h1>Chrome DevTools Report</h1>
+
+	<p><strong>Name:</strong> Alwin Roble</p>
+	<p><strong>Class:</strong> COMP 484</p>
+	<p><strong>Project:</strong> Project 2 copy / Giga Pet DevTools</p>
+
+	<section>
+		<h2>What I Changed</h2>
+		<p>
+			I copied my Project 2 Giga Pet and added a Chrome DevTools section. The new buttons make
+			console messages, browser errors, and filter examples. I also added a small addition bug
+			so I could use the Sources panel and then show the fixed version.
+		</p>
+	</section>
+
+	<section>
+		<h2>Message Logging</h2>
+		<p>
+			I added examples for log/info, warning, error, table, group, and a custom styled log.
+			These are in <code>script.js</code>.
+		</p>
+		<div class="screenshot">
+			<p>Add screenshot: <code>screenshots/01-console-message-logging.png</code></p>
+		</div>
+	</section>
+
+	<section>
+		<h2>Browser Messages</h2>
+		<p>
+			I used one button to request a missing file for a 404. Another button causes a TypeError.
+			The violation button runs a slow click handler.
+		</p>
+		<div class="screenshot">
+			<p>Add screenshot: <code>screenshots/02-browser-messages.png</code></p>
+		</div>
+	</section>
+
+	<section>
+		<h2>Filtering</h2>
+		<p>
+			I used tags like <code>PET-INFO:</code>, <code>PET-WARN:</code>, <code>PET-ERROR:</code>,
+			<code>FILTER-DEMO:</code>, and <code>SOURCE-DEMO:</code>. These make it easier to filter
+			by level, text, regex, source, and user messages.
+		</p>
+		<div class="screenshot">
+			<p>Add screenshot: <code>screenshots/03-filter-log-level.png</code></p>
+		</div>
+		<div class="screenshot">
+			<p>Add screenshot: <code>screenshots/04-filter-text-regex.png</code></p>
+		</div>
+		<div class="screenshot">
+			<p>Add screenshot: <code>screenshots/05-filter-source-user.png</code></p>
+		</div>
+	</section>
+
+	<section>
+		<h2>Sources Debugging</h2>
+		<p>
+			The Buggy Add button uses the input values as strings, so 5 + 1 becomes 51. I used
+			the Sources panel to pause the code, check variables in Scope, add a Watch expression,
+			and test a fix in the Console.
+		</p>
+		<div class="screenshot">
+			<p>Add screenshot: <code>screenshots/06-sources-ui.png</code></p>
+		</div>
+		<div class="screenshot">
+			<p>Add screenshot: <code>screenshots/07-breakpoint-scope.png</code></p>
+		</div>
+		<div class="screenshot">
+			<p>Add screenshot: <code>screenshots/08-watch-expression-console.png</code></p>
+		</div>
+	</section>
+
+	<section>
+		<h2>Fix</h2>
+		<p>
+			The Fixed Add button uses <code>Number()</code> before adding. With 5 and 1, the result is 6.
+		</p>
+		<div class="screenshot">
+			<p>Add screenshot: <code>screenshots/09-apply-fix.png</code></p>
+		</div>
+	</section>
+</body>
+</html>
