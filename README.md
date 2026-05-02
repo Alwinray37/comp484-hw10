@@ -2,11 +2,10 @@
 
 This is my Project 2 Giga Pet copied for the Chrome DevTools homework.
 
-## GitHub Pages
-
 Live link: https://alwinray37.github.io/comp484-hw10/
 
 ## HW 10 Instructions
+
 - Review the Chrome dev tools documentation and demos. (If the demos don't load try opening the demo in an incognito window)
   - https://developer.chrome.com/docs/devtools/console/log/
   - https://developer.chrome.com/docs/devtools/javascript/
